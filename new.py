@@ -5,7 +5,6 @@ import numpy as np
 import streamlit as st
 
 
-from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.tree import DecisionTreeClassifier
