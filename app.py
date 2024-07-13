@@ -123,7 +123,7 @@ X=df.drop('target',axis=1).values
 y=df.iloc[:,-1]
 
 # %%
-!pip install imbalanced-learn
+
 from imblearn.over_sampling import SMOTE
 
 # %%
