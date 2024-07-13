@@ -5,10 +5,7 @@ import numpy as np
 import streamlit as st
 
 
-from sklearn.svm import SVC
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, accuracy_score
+
 
 # Streamlit configuration
 st.title('Heart Disease Prediction')
