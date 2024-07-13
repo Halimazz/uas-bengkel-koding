@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 
-from imblearn.over_sampling import SMOTE
+
 from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
